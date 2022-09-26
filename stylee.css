@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    background-image: url('img/11.jpg');
+    background-position: center;
+    
+}
+h2{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 3vh;
+font-family:'Courier New', Courier;
+text-align: center;}
+header{background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+form{
+    margin-top: 6vh;
+    width: 80%;
+    text-align: center;
+}
+
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.campos{
+    margin-top: 5px;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+}
+.rr{
+
+    background-image: url('img/istockphoto-480585601-170667a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.2px solid;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 88vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.rs{
+    font-family: 'Courier New', Courier, monospace ;
+    margin-right: 8%;
+    margin-top: 5%;
+    color:white;
+    
+}
+
+#resultado{
+    position: relative;
+    top: 3vh;
+    right: 15vw;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 50vw;
+    height: 30vh;
+}
+footer{
+    text-shadow: 2px 2px 2px black;
+    font-size: 12px;
+    color: rgb(251, 247, 247);
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 0.2vh;
+    left: 20vw;
+    border-bottom: 0.1px solid;
+    margin-bottom:1vh ;
+}
+::placeholder{
+font-size: 18px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
